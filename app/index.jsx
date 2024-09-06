@@ -16,14 +16,14 @@ export default function App() {
             resizeMode="contain"
           />
           <Image
-            source={images.cards}
-            className="max-w-[380px] w-full h-[300px]"
-            resizeMode="contain"
+            source={images.scooty1}
+            className="ml-[10px] rounded-3xl max-w-[380px] w-full h-[300px]"
+            
           />
           <View className="relative mt-5">
             <Text className="text-3xl text-white font-bold text-center">
-              Discover Endless Possibilities with
-              <Text className="text-secondary-200"> Aora</Text>
+              Discover the Future of Mobility with
+              <Text className="text-secondary-200"> WheelEZ</Text>
             </Text>
             <Image
               source={images.path}
@@ -32,17 +32,17 @@ export default function App() {
             />
           </View>
           <Text className="text-sm font-pregular text-gray-100 mt-7 text-center">
-            Where creativity meets innovation: embark on a journey of limitless
-            exploration with Aora
+            Where convenience meets technology: revolutionize your driving
+            experience with WheelEZ
           </Text>
           <CustomButton
-            title="Continue with Email"
-            handlePress={() => router.push('/sign-in')}
+            title="Start Your Journey"
+            handlePress={() => router.push("/sign-in")}
             containerStyles="w-full mt-7"
           />
         </View>
       </ScrollView>
-      <StatusBar backgroundColor="#161622" style="light"/>
+      <StatusBar backgroundColor="#161622" style="light" />
     </SafeAreaView>
   );
 }
