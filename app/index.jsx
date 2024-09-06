@@ -23,7 +23,7 @@ export default function App() {
           <View className="relative mt-5">
             <Text className="text-3xl text-white font-bold text-center">
               Discover the Future of Mobility with
-              <Text className="text-secondary-200"> WheelEZ</Text>
+              <Text className="text-secondary-200"> WheelEZZ</Text>
             </Text>
             <Image
               source={images.path}

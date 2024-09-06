@@ -23,7 +23,7 @@ const SignUp = () => {
             className="w-[115px] h-[35px]"
           />
           <Text className="text-2xl text-white text-semibold mt-10 font-psemibold">
-            Sign Up to WheelEZ
+            Sign Up to WheelEZZ
           </Text>
           <FormField
             title="Username"

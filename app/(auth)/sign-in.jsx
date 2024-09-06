@@ -24,7 +24,7 @@ const SignIn = () => {
             className="w-[115px] h-[35px]"
           />
           <Text className="text-2xl text-white text-semibold mt-10 font-psemibold">
-            Log in to WheelEZ
+            Log in to WheelEZZ
           </Text>
           <FormField
             title="Email"
