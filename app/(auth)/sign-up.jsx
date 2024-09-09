@@ -4,7 +4,7 @@ import { SafeAreaView } from "react-native-safe-area-context";
 import { images } from "../../constants";
 import FormField from "../../components/FormField";
 import CustomButton from "../../components/CustomButton";
-import { Link } from "expo-router";
+import { Link,useRouter } from "expo-router";
 const SignUp = () => {
   const [form, setForm] = useState({
     username:"",
@@ -12,7 +12,10 @@ const SignUp = () => {
     password: "",
   });
   const [isSubmitting, setisSubmitting] = useState(false);
-  const submit = () => {};
+  const router = useRouter();
+  const submit = () => {
+    router.push("/home");
+  };
   return (
     <SafeAreaView className="bg-primary h-full">
       <ScrollView>
